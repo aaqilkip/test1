@@ -1,0 +1,139 @@
+  @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+  * {
+  	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+  }
+
+  :root {
+  	--input-bg:rgb(233, 125, 143);
+	--card-bg:green; 
+	--input-color:blue;
+  }
+
+  body {
+  	font-family: Mukta;
+  }
+
+  .body {
+  	background-color: whitesmoke;
+  	color: black;
+  }
+
+  .nav {
+  	height: 40px;
+  	background: sandybrown;
+  	overflow: hidden;
+  }
+
+  .navbar {
+  	height: 100%;
+  	padding: 20px 10px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  }
+
+  .logo {
+  	height: 70px;
+  }
+
+  .logo img {
+  	height: 100%;
+  }
+
+  .menu {
+  	display: flex;
+  	list-style-type: none;
+  	gap: 11px;
+
+  }
+
+  .menu a {
+  	color: white;
+  	text-decoration: none;
+  	font-weight: 600%;
+  }
+
+  .menu a:hover {
+  	background: dimgrey;
+  	color: white;
+  }
+
+  .title {
+  	text-align: center;
+  	margin-bottom: 15px;
+  }
+
+  .description {
+  	font-size: 20px;
+  	font-weight: bold;
+  	text-align: center;
+  	margin-bottom: 10px;
+  }
+
+  .sign-form {
+  	margin: 60px auto;
+  	width: 500px;
+  	background: var(--card-bg);
+  	padding: 50px;
+  	border-radius: 20px;
+  }
+
+  .form div {
+  	margin-bottom: 13px;
+  }
+
+  .form label {
+  	margin-bottom: 7px;
+  }
+
+  .form label,
+  .form input,
+  .form textarea {
+  	display: block;
+  	font-size: 20px;
+  	width: 100%;
+
+  }
+
+  .form div input,
+  .form textarea {
+  	padding: 10px;
+  	font-size: 17px;
+  	border-radius: 21px;
+  	border: 2px solid transparent;
+  	outline: none;
+  	background: var(--input-bg);
+  	color: var(--input-color);
+  }
+
+  .form input:hover,
+  .form textarea:hover {
+  	background-color: antiquewhite;
+  	cursor: pointer;
+  }
+
+  .form button {
+  	font-size: 0.9rem;
+  	padding: 15px 30px 15px 30px;
+  	border-radius: 50px;
+  	cursor: pointer;
+  	background: var(--input-bg);
+  	color: var(--input-color);
+  	border: none;
+  }
+
+  .submit-button:hover {
+
+	
+  	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+  }
+
+  .reset-button:hover {
+  
+  	/* background-color: rgb(164, 114, 114); */
+  	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
